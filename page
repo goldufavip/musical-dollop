@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>คลิกเพื่อดูโปรโมชั่น</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background: #f6f6f6;
+      padding: 50px;
+    }
+    .button {
+      background: #ff3c3c;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.5em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background: #e73333;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 โปรโมชั่นพิเศษวันนี้เท่านั้น!</h1>
+  <p>คลิกด้านล่างเพื่อดูรายละเอียด</p>
+  <a href="https://example.com/thankyou" target="_blank">
+    <button class="button">คลิกเลย</button>
+  </a>
+</body>
+</html>
